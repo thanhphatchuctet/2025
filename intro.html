@@ -8,101 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="intro.css">
     <title>Happy New Year 2025</title>
-
-    <style>
-        /* Đảm bảo hình ảnh phù hợp với màn hình nhỏ */
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Chỉnh sửa cho các thiết bị di động */
-        @media screen and (max-width: 768px) {
-            .slider1, .slider2, .slider3 {
-                flex-direction: column; /* Căn chỉnh các slider theo chiều dọc */
-            }
-
-            .box-slider_img1, .box-slider_img2, .box-flower {
-                width: 100%; /* Đảm bảo các phần tử chiếm hết chiều rộng màn hình */
-            }
-
-            .box-number, .box-texture_clouds {
-                display: none; /* Ẩn các phần tử không cần thiết trên màn hình nhỏ */
-            }
-
-            .slider-img6 img {
-                width: 100%; /* Điều chỉnh kích thước hình ảnh cho phù hợp */
-            }
-
-            .slider-img1, .slider-img2, .slider-img3 {
-                width: 100%; /* Đảm bảo hình ảnh trong slider vừa với màn hình */
-            }
-
-            .box-button {
-                text-align: center; /* Căn giữa button */
-            }
-
-            /* Căn chỉnh chữ trong các phần */
-            .textHappynewyear, .number2023, .box-rim, .box-big_clouds, .apricot_blossom {
-                text-align: center;
-            }
-        }
-
-        /* Responsive chung cho các màn hình khác */
-        @media screen and (max-width: 480px) {
-            .box-flower img {
-                width: 50%; /* Đảm bảo hình ảnh hoa không quá to trên màn hình nhỏ */
-            }
-
-            .box-circle_left {
-                margin-top: 20px; /* Căn chỉnh các hình tròn */
-            }
-
-            .apricot_blossom img {
-                width: 30%; /* Hình ảnh hoa mai nhỏ lại trên điện thoại */
-            }
-        }
-
-        /* Phần chính: .right */
-        .right {
-            display: block; /* Đảm bảo phần tử này luôn hiển thị */
-            width: 100%; /* Chiếm toàn bộ chiều rộng */
-            margin-top: 20px; /* Giảm khoảng cách giữa các phần tử */
-            padding: 10px;
-        }
-
-        /* Nội dung phần .right */
-        .right .content {
-            padding: 20px;
-            text-align: left;
-        }
-
-        .right .title h1 {
-            font-size: 2em;
-            color: #333;
-        }
-
-        .right .fixedContent h3 {
-            font-size: 1.2em;
-            margin-top: 10px;
-            color: #555;
-        }
-
-        /* Chỉnh sửa cho các thiết bị di động */
-        @media screen and (max-width: 768px) {
-            .right .title h1 {
-                font-size: 1.5em; /* Giảm kích thước chữ cho phù hợp với màn hình nhỏ */
-            }
-
-            .right p {
-                font-size: 1em; /* Giảm kích thước chữ cho văn bản */
-            }
-
-            .fixedContent h3 {
-                font-size: 1em; /* Kích thước chữ chữ ký nhỏ lại trên điện thoại */
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="box-slider">
@@ -130,6 +35,127 @@
                     <span><i class="fa-solid fa-heart"></i></span>
                 </div>
             </div>
+            <div class="box-slider_img1">
+                <div class="slider-img1">
+                    <img src="image/circular-pattern.png" alt="">
+                </div>
+                <div class="pattern">
+                    <img src="image/pattern.png" alt="">
+                </div>
+            </div>
+            <div class="circle">
+                <span></span>
+            </div>
+            <div class="box-flower">
+                <div class="flower-img">
+                    <img src="image/flower.png" alt="">
+                </div>
+                <div class="flower-img">
+                    <img src="image/flower.png" alt="">
+                </div>
+                <div class="flower-img">
+                    <img src="image/flower1.png" alt="">
+                </div>
+                <div class="flower-img">
+                    <img src="image/flower1.png" alt="">
+                </div>
+                <div class="flower-img">
+                    <img src="image/flower2.png" alt="">
+                </div>
+                <div class="flower-img">
+                    <img src="image/flower2.png" alt="">
+                </div>
+            </div>
+            <div class="box-slider_img2">
+                <div class="box-slider-img2">
+                    <div class="slider-img2">
+                        <img src="image/lanterns.png" alt="">
+                    </div>
+                </div>
+                <div class="box-slider-img3">
+                    <div class="slider-img3">
+                        <img src="image/lanterns.png" alt="">
+                    </div>
+                </div>
+                <div class="box-slider-img4">
+                    <div class="slider-img4">
+                        <img src="image/lanterns.png" alt="">
+                    </div>
+                </div>
+                <div class="box-slider-img5">
+                    <div class="slider-img5">
+                        <img src="image/lanterns.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-img6">
+                <img src="image/cloud-red1.png" alt="">
+                <img src="image/cloud-red2.png" alt="">
+                <img src="image/cloud-red2.png" alt="">
+            </div>
+            <div class="box-lion_dance">
+                <div class="lion_dance1">
+                    <img src="image/Lion-dance.gif" alt="">
+                </div>
+                <div class="lion_dance2">
+                    <img src="image/Lion-dance2.gif" alt="">
+                </div>
+            </div>
+            <div class="cat">
+                <img src="image/cat.png" alt="">
+            </div>
+            <div class="box-number">
+                <div class="number2023">
+                    <div class="number">
+                        <span>2</span>
+                    </div>
+                    <div class="number">
+                        <span>0</span>
+                    </div>
+                    <div class="number">
+                        <span>2</span>
+                    </div>
+                    <div class="number">
+                        <span>5</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-rim">
+                <div class="rim1">
+                    <img src="image/rim1.png" alt="">
+                </div>
+                <div class="rim2">
+                    <img src="image/rim1.png" alt="">
+                </div>
+            </div>
+            <div class="box-texture_clouds">
+                <div class="texture_clouds1">
+                    <img src="image/texture-clouds.png" alt="">
+                </div>
+                <div class="texture_clouds1">
+                    <img src="image/texture-clouds.png" alt="">
+                </div>
+                <div class="texture_clouds1">
+                    <img src="image/texture-clouds.png" alt="">
+                </div>
+                <div class="texture_clouds1">
+                    <img src="image/texture-clouds.png" alt="">
+                </div>
+                <div class="texture_clouds1">
+                    <img src="image/texture-clouds.png" alt="">
+                </div>
+            </div>
+            <div class="box-big_clouds">
+                <div class="big_clouds1">
+                    <img src="image/big-clouds1.png" alt="">
+                </div>
+                <div class="big_clouds2">
+                    <img src="image/big-clouds2.png" alt="">
+                </div>
+                <div class="big_clouds3">
+                    <img src="image/big-clouds3.png" alt="">
+                </div>
+            </div>
         </div>
         <div class="slider2">
             <div class="rhombus"></div>
@@ -146,7 +172,9 @@
             <div class="box-content">
                 <div class="left">
                     <img src="image/bg1.jpg" alt="">
-                    <div class="center"></div>
+                    <div class="center">
+
+                    </div>
                     <div class="lanterns-content">
                         <img src="image/lanterns.png" alt="">
                     </div>
@@ -155,6 +183,10 @@
                         <img src="image/big-flower.png" alt="">
                         <img src="image/big-flower.png" alt="">
                         <img src="image/big-flower1.png" alt="">
+                        <img src="image/big-flower1.png" alt="">
+                        <img src="image/big-flower2.png" alt="">
+                        <img src="image/big-flower2.png" alt="">
+                        <img src="image/big-flower2.png" alt="">
                     </div>
                     <div class="box-circle_left">
                         <div class="circle_left">
@@ -169,6 +201,10 @@
                     <div class="apricot_blossom">
                         <img src="image/apricot-blossom.png" alt="">
                         <img src="image/apricot-blossom.png" alt="">
+                        <img src="image/apricot-blossom.png" alt="">
+                        <img src="image/apricot-blossom.png" alt="">
+                        <img src="image/apricot-blossom.png" alt="">
+                        <img src="image/apricot-blossom.png" alt="">
                     </div>
                 </div>
                 <div class="right">
@@ -177,12 +213,12 @@
                             <h1 id="name-cua-em">&#129505Thành Phát Chúc Tết Cả Nhà Iuuuu 🧧🥰!</h1>
                         </div>
                         <p id="message-content">
-                            Tết 2025! Xuân rộn ràng, Lộc phát an khang!! 
-                            Chúc mọi người năm mới phát TÀI phát LỘC, VẠN SỰ NHƯ Ý 🧧 <br>
+                            Tết 2025! Xuân rộn ràng, Lộc phát an khang!!
+                             Chúc mọi người năm mới phát TÀI phát LỘC, VẠN SỰ NHƯ Ý 🧧 <br>
                             Chúc mọi người năm mới (2025) luôn hạnh phúc, tràn đầy sức khoẻ và thành công trong cuộc sống !🧧 <br>
                             Năm mới chúc mọi người mãi tươi trẻ, luôn vững bước trên con đường công danh sự nghiệp và tận hưởng những niềm vui tuyệt vời! 🧧<br>
                             Chúc năm mới của mọi người luôn tràn ngập niềm vui, cười thật tươi, đón nhận thật nhiều may mắn và sự bình an.🧧<br>
-                            Hy vọng những câu chúc này của PHÁT sẽ mang đến cho mọi người niềm vui và lời chúc tốt đẹp đến mọi người! 🧧🧧🧧
+                            Hy vọng những câu chúc này sẽ giúp PHÁT mang đến niềm vui và lời chúc tốt đẹp đến mọi người!
                         </p>
                         <div class="fixedContent">
                             <h3>Ký tên: JUSTFAB with love</h3>
@@ -198,21 +234,26 @@
         <source src="image/nhac.mp3" type="audio/mp3">
     </audio>
 
-    <script src="./data.js"></script>
-    <script>
-        var urlParams = new URLSearchParams(window.location.search);
-        var name = urlParams.get('name');
-        if (name != null) {
-            for (var i = 0; i < data_name.length; i++) {
-                if (name == data_name[i].name) {
-                    document.getElementById("name-cua-em").innerHTML = data_name[i].name;
-                    document.getElementById("img-cua-em").src = data_name[i].img;
-                    document.getElementById("message-content").innerHTML = data_name[i].message;
-                    break;
-                }
+<script src="./data.js"></script>
+
+<script>
+    // get request GET name
+    var urlParams = new URLSearchParams(window.location.search);
+    var name = urlParams.get('name');
+    // search name in data_name
+    if (name != null) {
+        for (var i = 0; i < data_name.length; i++) {
+            if (name == data_name[i].name) {
+                document.getElementById("name-cua-em").innerHTML = data_name[i].name;
+                document.getElementById("img-cua-em").src = data_name[i].img;
+                document.getElementById("message-content").innerHTML = data_name[i].message;
+                break;
             }
         }
-    </script>
-    <script src="./intro.js"></script>
+    }
+
+
+</script>
+<script src="./intro.js"></script>
 </body>
 </html>
